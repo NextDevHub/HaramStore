@@ -300,7 +300,7 @@ const Profile = () => {
           </MenuItem>
         </Link>
       </Menu>
-      <ReadmeComponent />
+      {/* <ReadmeComponent /> */}
 
       {/* <ThemeSwitcher /> */}
     </div>
