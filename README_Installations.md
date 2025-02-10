@@ -18,6 +18,7 @@ To set up and run the project locally, follow these steps:
    npm install i18next
    ```
 
+
 3. Install `react-i18next` for React integration with i18next:
 
    ```bash
