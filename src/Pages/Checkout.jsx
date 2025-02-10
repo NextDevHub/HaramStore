@@ -174,14 +174,14 @@ const Checkout = () => {
               ))}
             </div>
 
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <input
                 type="text"
                 placeholder={i18n.t("checkOut.couponCode")}
                 className="border rounded-md p-3 w-[170px] md:w-[280px]"
               />
               <RedButton name={i18n.t("redButtons.applyCoupon")} />
-            </div>
+            </div> */}
 
             <RedButton name={i18n.t("redButtons.placeOrder")} type="submit" />
           </div>
