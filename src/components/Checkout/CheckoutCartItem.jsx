@@ -19,7 +19,7 @@ const CheckoutCartItem = ({ item }) => {
               loading="lazy"
               src={item.imageSrc}
               alt={item.title}
-              className="w-14 h-14  "
+              className="w-16"
             />
           </Link>
         </div>

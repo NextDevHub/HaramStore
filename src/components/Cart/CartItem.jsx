@@ -56,11 +56,11 @@ const CartItem = ({ item }) => {
               loading="lazy"
               src={item.imageSrc}
               alt={item.title}
-              className="w-16 h-16"
+              className="w-16"
             />
           </Link>
         </div>
-        <p className="hidden lg:flex text-xs md:text-base ">{item.title}</p>
+        <p className="hidden lg:flex text-xs md:text-base">{item.title}</p>
       </div>
       <div className="flex items-center ">
         <p className="text-gray-500">${item.price}</p>
